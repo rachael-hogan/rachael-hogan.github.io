@@ -1,11 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0ee5160c.css",
-    "main.js": "/static/js/main.5fbfa4f6.js",
+    "main.js": "/static/js/main.53d50307.js",
     "static/js/453.465b05b4.chunk.js": "/static/js/453.465b05b4.chunk.js",
-    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/mailchimpAddContact.mp4": "/static/media/mailchimpAddContact.e44f765ec85ec7d47fb9.mp4",
     "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/Hogan_Rachael_Resume.pdf": "/static/media/Hogan_Rachael_Resume.d148d4a578dcbdd2a0e3.pdf",
@@ -18,11 +16,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.0ee5160c.css.map": "/static/css/main.0ee5160c.css.map",
-    "main.5fbfa4f6.js.map": "/static/js/main.5fbfa4f6.js.map",
+    "main.53d50307.js.map": "/static/js/main.53d50307.js.map",
     "453.465b05b4.chunk.js.map": "/static/js/453.465b05b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ee5160c.css",
-    "static/js/main.5fbfa4f6.js"
+    "static/js/main.53d50307.js"
   ]
 }
