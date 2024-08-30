@@ -10,36 +10,13 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
+      <br className="footer-break"></br>
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+        <Col className="footer-copywright">
+          <h3>Designed and Developed by <a href="https://github.com/soumyajit4419/Portfolio">Soumyajit Behera</a></h3>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col>
           <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/rachael-hogan"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/rachaelhogan13/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-          </ul>
         </Col>
       </Row>
     </Container>

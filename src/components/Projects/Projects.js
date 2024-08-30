@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import addContactVideo from "../../Assets/Projects/mailchimpAddContact.mp4"
+import exportHistoryVideo from "../../Assets/Projects/MailchimpAudienceExport.mp4"
+import marketplaceVideo from "../../Assets/Projects/Marketplace.mp4"
+import marketplacePicture from "../../Assets/Projects/Marketplace.avif"
+import exportHistoryPicture from "../../Assets/Projects/exportHistory.png"
+import addContactPicture from "../../Assets/Projects/addContact.jpg"
 
 function Projects() {
   return (
@@ -21,30 +23,36 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={editor}
+                imgPath={marketplacePicture}
                 title="Marketplace"
-                description=""
+                description="MarketPlace is a web application that allows users to post contract jobs
+                 to be performed. The jobs are bid on in an auction format similar to eBay, but for
+                 jobs/tasks instead of products. This repository contains both the frontend (React)
+                 and backend (Kotlin with Ktor) components of the application."
                 ghLink="https://github.com/rachael-hogan/marketplace"
-                demoLink=""
+                demoLink={marketplaceVideo}
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={addContactPicture}
               isBlog={false}
               title="Mailchimp Add Contact Page"
-              description="ToDo: Add A Description"
+              description="I worked on creating a modern Add Contact Page for mailchimp. Some notable work
+            that went into this page includes the extensive validation for several field types, multiple input types,
+            and success and error state user feedback."
               demoLink={addContactVideo}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={exportHistoryPicture}
               isBlog={false}
               title="Mailchimp Export History"
-              description="Add Description"
-              demoLink=""
+              description="I modernized Mailchimp's Export History Page. Items of note for
+              this specific pages are the pagination, delete and download csv."
+              demoLink={exportHistoryVideo}
             />
           </Col>
         </Row>

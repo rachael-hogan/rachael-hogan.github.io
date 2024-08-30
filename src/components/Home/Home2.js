@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,42 +17,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              My name is Rachael, and I'm a
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="blue"> full-stack engineer </b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              with a strong proficiency in
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="blue"> PHP and React.</b>
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              <br/>
+              <br/>
+              In addition to my expertise in these technologies, I have experience with
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="blue"> Java, Go, and Vue.</b>
               </i>
-              &nbsp; like
+              <br/>
+              <br/>
+              My skill set also includes working with
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="blue"> gRPC, GraphQL, Protobuf, HTML, CSS, and Jest/Testing Library.</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
