@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b4f62d6.css",
-    "main.js": "/static/js/main.65fec410.js",
-    "static/js/453.465b05b4.chunk.js": "/static/js/453.465b05b4.chunk.js",
+    "main.css": "/static/css/main.37b1edeb.css",
+    "main.js": "/static/js/main.62cdf91a.js",
+    "static/js/453.9a0c1d11.chunk.js": "/static/js/453.9a0c1d11.chunk.js",
     "static/media/Marketplace.mp4": "/static/media/Marketplace.630264083c73138bdf34.mp4",
     "static/media/MailchimpAudienceExport.mp4": "/static/media/MailchimpAudienceExport.bd3fa09887599030cacc.mp4",
     "static/media/mailchimpAddContact.mp4": "/static/media/mailchimpAddContact.e44f765ec85ec7d47fb9.mp4",
-    "static/media/ExportHistory.png": "/static/media/ExportHistory.bae9acad084c09eea3b6.png",
-    "static/media/Marketplace.png": "/static/media/Marketplace.f4c4daa6030b27481781.png",
-    "static/media/AddContact.png": "/static/media/AddContact.8e07eb71b7ab6ea412de.png",
     "static/media/Hogan_Rachael_Resume.pdf": "/static/media/Hogan_Rachael_Resume.d148d4a578dcbdd2a0e3.pdf",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/home-main.svg": "/static/media/home-main.b4152cc13d15bb30d60ac45365e8ad9e.svg",
-    "static/media/chroma.cjs": "/static/media/chroma.271634d07525ddfb33b4.cjs",
-    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/programmer.svg": "/static/media/programmer.7976e7abbae258bdb30a80d5bb749188.svg",
+    "static/media/addContact.jpg": "/static/media/addContact.118a4db119c634c28725.jpg",
+    "static/media/Marketplace.avif": "/static/media/Marketplace.f242b393d6cf98159283.avif",
+    "static/media/avatar.svg": "/static/media/avatar.776f45175885d0ecff8f2ba9211c1d4d.svg",
+    "static/media/exportHistory.png": "/static/media/exportHistory.b65b3da2cf8860025f92.png",
+    "static/media/pre.svg": "/static/media/pre.180929399ffef675b2fd.svg",
     "index.html": "/index.html",
-    "main.2b4f62d6.css.map": "/static/css/main.2b4f62d6.css.map",
-    "main.65fec410.js.map": "/static/js/main.65fec410.js.map",
-    "453.465b05b4.chunk.js.map": "/static/js/453.465b05b4.chunk.js.map"
+    "main.37b1edeb.css.map": "/static/css/main.37b1edeb.css.map",
+    "main.62cdf91a.js.map": "/static/js/main.62cdf91a.js.map",
+    "453.9a0c1d11.chunk.js.map": "/static/js/453.9a0c1d11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b4f62d6.css",
-    "static/js/main.65fec410.js"
+    "static/css/main.37b1edeb.css",
+    "static/js/main.62cdf91a.js"
   ]
 }
