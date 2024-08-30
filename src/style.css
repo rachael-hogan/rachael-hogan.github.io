@@ -706,8 +706,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: dodgerblue !important;
+  border-color: dodgerblue !important;
 }
 
 .animate-like {
@@ -769,6 +769,9 @@ button:focus {
 .contact-me-social {
   text-align: center !important;
   padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: darkgray !important;
 }
 

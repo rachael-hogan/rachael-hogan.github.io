@@ -4,13 +4,22 @@ import {
     AiFillGithub, AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import homeLogo from "../../Assets/programmer.svg";
 
 function ContactMe() {
     return (
         <Container fluid className="contact-me-section" id="contact-me">
             <Container>
                 <Row>
-                    <Col md={12} className="contact-me-social">
+                    <Col md={6}>
+                            <img
+                                src={homeLogo}
+                                alt="home pic"
+                                className="img-fluid"
+                                style={{ maxHeight: "450px" }}
+                            />
+                    </Col>
+                    <Col md={6} className="contact-me-social">
                         <h1>FIND ME ON</h1>
                         <p>
                             Feel free to <span className="blue">connect </span>with me
