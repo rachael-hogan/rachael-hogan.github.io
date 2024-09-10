@@ -94,11 +94,12 @@ button:focus {
   position: relative !important;
   background-color: transparent !important;
   border-color: transparent !important;
+  color: white;
 }
 
 .navbar-toggler span {
   display: block !important;
-  background-color: dodgerblue !important;
+  background-color: white !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -143,6 +144,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
+    color: white;
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
     background-color: dodgerblue !important;
